@@ -21,6 +21,7 @@ nav_order: 4
 
 
 ## Details on architectures of submodels
+### [[Example]]
 
 Please note that the widthwise scaling (𝛾<sub>W</sub>) is uniformly applied across all blocks.
 
@@ -323,3 +324,6 @@ Details of 𝛾 of NeFL on Wide ResNet101_2
 - Optimizer: SGD with learning rate of 0.1 without momentum and weight decay
 - Cosine annealing learning rate scheduling with 500 steps of warmup and an initial learning rate of 0.03
 - Input images are resized to a size of 256x256 and randomly cropped to a size of 224x224 with a padding size of 28 28
+
+----
+[Example]: https://github.com/honggkang/nested-federated-learning/blob/master/submodel_param_flop.xlsx
